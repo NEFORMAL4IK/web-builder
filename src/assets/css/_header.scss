@@ -1,4 +1,6 @@
 .header{
+  display: flex;
+  flex-direction: column;
   &__top{
     display: flex;
     justify-content: space-between;
@@ -36,4 +38,15 @@
       }
     }
   }
+  .header-bot{
+    display: flex;
+    flex-direction: row;
+    width: 1366px;
+    height: 80px;
+    background-color:$primary ;
+    .noD{
+      text-decoration: none;
+      color: azure;
+    }
+    }
 }
