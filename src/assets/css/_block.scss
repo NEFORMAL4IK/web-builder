@@ -1,4 +1,54 @@
-h1{
-    font-family: "Work sans";
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+.h2 {
+  font-family: "Work sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: $secondary;
+  text-align: center;
+}
+.p1 {
+  margin-top: 8px;
+  font-family: "Yeseva One";
+  font-weight: 400;
+  font-size: 32px;
+  color: $primary;
+  text-align: center;
+}
+.p2 {
+  margin-top: 15px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: $black;
+  text-align: center;
+}
+.p3 {
+  margin-top: 32px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: $secondary;
+  text-align: center;
+  margin-bottom: 61px;
+}
+.p4{
+    margin-top: 64px;
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 18px;
+    color: $secondary;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.p5{
+    margin-top: 8px;
+    font-family: "Yeseva One";
     font-weight: 400;
+    font-size: 32px;
+    color: $primary;
+    text-align: center;
 }
