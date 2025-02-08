@@ -1,6 +1,66 @@
+.bg2{
+  position: relative;
+  height: 550px;
+  width: 1366px;
+  overflow: hidden;
+}
+.img1{
+  width: 100%;
+}
+.p11{
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 16%;
+  text-transform: uppercase;
+  position: absolute;
+  top: 167px;
+  left: 187px;
+  color: $secondary;
+}
+.p12{
+  color: $primary;
+  font-family: "Yeseva One";
+  font-weight: 400;
+  font-size: 48px ;
+  position: absolute;
+  top: 196px;
+  left: 186px;
+}
+.bg3{
+  position: relative;
+}
+.b1,.b2,.b3{
+  border: 0px;
+  height: 100px;
+  width: 317px;
+  position: absolute;
+}
+.b1{
+  top: -50px;
+  left: 187px;
+}
+.b2{
+  top: -50px;
+  left: 524px;
+}
+.b3{
+  top: -50px;
+  left: 862px;
+}
+
+
+
+
+
+
+
+
+
 .wrap {
   display: flex;
   flex-direction: column;
+  margin-top: 114px;
 }
 .setka {
   display: flex;
@@ -18,6 +78,7 @@
   font-size: 18px;
   color: $secondary;
   text-align: center;
+  text-transform: uppercase;
 }
 .p1 {
   margin-top: 8px;
@@ -63,31 +124,31 @@
   text-align: center;
 }
 .st1 {
-text-align: center;
+  text-align: center;
   background-color: #00ffb3;
   height: 106px;
   width: 157px;
 }
 .st2 {
-    text-align: center;
+  text-align: center;
   background-color: #00ffb3;
   height: 106px;
   width: 157px;
 }
 .st3 {
-    text-align: center;
+  text-align: center;
   background-color: #00ffb3;
   height: 106px;
   width: 157px;
 }
 .st4 {
-    text-align: center;
+  text-align: center;
   background-color: #00ffb3;
   height: 106px;
   width: 157px;
 }
 .st5 {
-    text-align: center;
+  text-align: center;
   background-color: #00ffb3;
   height: 40px;
   width: 157px;
